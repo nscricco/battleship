@@ -1,0 +1,28 @@
+functionality
+  place ships
+  make moves
+  see state
+    - in progress
+    - some sunk
+
+state
+  s1, s2 => placement of ships
+  m1, m2 => moves
+
+s = { (0,0) => e, (0,1) => e .... }
+m = [ (0,0), (1,0) ... ]
+
+constants
+  board size
+  config
+
+main:
+  p1_name = get_name()
+  p2_name = get_name()
+
+  s1 = get_ship_positions
+  ...
+
+  m1 = m2 = []
+  while (game not completed)
+    m1 = get......
